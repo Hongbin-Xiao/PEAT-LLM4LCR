@@ -1,9 +1,32 @@
-# PEAT-LLM4LCR
-PEAT-LLM4LCR:Legal Contract Review Method Integrating Prompt Engineering and Agent Technology with Large Language Models
+# PEAT-LLM4LCR: 中文法律合同智能审查工具
+**视频演示链接:** https://www.bilibili.com/video/BV1gbsdeZEub/
 
-工具支持：https://www.bilibili.com/video/BV1gbsdeZEub/
+## 📝 概述
 
-注：由于隐私保护和知识产权问题，Promot文件夹中所有提示词文件只包含一条样例。
-下图是本文的方法流程：
-![image](https://github.com/user-attachments/assets/eae067f8-00a6-4530-abc6-cd04d576d396)
+PEAT-LLM4LCR (Prompt Engineering and Agent Technology with Large Language Models for Legal Contract Review) 是一种创新的中文法律合同智能审查方法，融合提示词工程与智能体技术，实现高效、准确的合同风险识别与修改建议生成。该方法通过提示词工程将法律合同审查流程转化为引导大语言模型的思维链，并结合Agent技术实现多任务协作。
+
+## 🌟 本文贡献
+
+🔍**提出了 PEAT-LLM4LCR 多智能体协作架构**:该架构将提示词工程与多智能体协作技术相融合，构建了一个专门针对非结构化文本处理的分布式认知系统.通过基于信息共享池的多 Agent 协作机制，结合Agent-GoTFlow 的运行结构，有效解决了非结构化合同文本的语义理解与知识表示挑战，同时保证了审查过程的可解释性和透明度.
+
+🤖 **构建了基于思维链的提示词模板的推理方法**:针对法律推理与风险识别的智能化难题，本文设计了一套基于思维链(Chain of Thought)的多维度推理方法.通过形式化法律推理过程，将抽象的法律知识转化为计算机可处理的推理路径，实现了从文本理解到风险识别的端到端自动化.
+
+🧠 **创新了 LR-STRB 自监督学习方法**:为解决专业领域模型训练数据稀缺的普遍问题，本文提出了一种通用的自监督学习方法——LR-STRB(Logic Rules Self-Taught Reasoner Bootstrap).该方法通过逻辑规则引导和迭代自我提升的机制，使模型能够从少量标注数据中学习复杂的推理能力，显著降低了专业领域模型训练的数据依赖.
+
+📋 **开发了实用的合同审查工具系统**:基于上述理论和方法，本文开发了一套完整的合同审查工具系统，该系统实现了合同风险自动识别、修改建议生成和审查报告输出等核心功能.系统采用模块化设计，支持多种合同类型和审查场景，具有良好的扩展性和实用性.实验结果表明，该系统显著提升了合同审查效率和准确性，为企业提供了智能化、高效的合同管理解决方案.
+
+## 🚀 性能提升
+
+与现有方法相比，PEAT-LLM4LCR实现了显著的性能提升：
+
+- **审查效率**：提升34%，大幅减少人工审查时间
+- **建议准确率**：提升50%，为合同修改提供更可靠依据
+- **识别准确率**：达92%，精确识别合同中的潜在风险
+- **精确率**：达93%，确保审查结果的专业性和可靠性
+
+## 🏗️ 方法架构
+下图是本文的方法：
+![2_00](https://github.com/user-attachments/assets/2a9fa1a9-e209-4065-a01e-ec506926e1e7)
+
+
 
