@@ -1,32 +1,34 @@
-# PEAT-LLM4LCR: 中文法律合同智能审查工具
-**视频演示链接:** https://www.bilibili.com/video/BV1gbsdeZEub/
+# PEAT-LLM4LCR: Intelligent Chinese Legal Contract Review Tool
+**Video Demo Link:** https://www.bilibili.com/video/BV1gbsdeZEub/
 
-## 📝 概述
+## 📝 Overview
 
-PEAT-LLM4LCR (Prompt Engineering and Agent Technology with Large Language Models for Legal Contract Review) 是一种创新的中文法律合同智能审查方法，融合提示词工程与智能体技术，实现高效、准确的合同风险识别与修改建议生成。该方法通过提示词工程将法律合同审查流程转化为引导大语言模型的思维链，并结合Agent技术实现多任务协作。
+PEAT-LLM4LCR (Prompt Engineering and Agent Technology with Large Language Models for Legal Contract Review) is an innovative intelligent Chinese legal contract review method that integrates prompt engineering with agent technology to achieve efficient and accurate contract risk identification and modification suggestion generation. This method transforms the legal contract review process into a chain of thought that guides large language models through prompt engineering, and implements multi-task collaboration through Agent technology.
 
-## 🌟 本文贡献
+## 🌟 Key Contributions
 
-🔍**提出了 PEAT-LLM4LCR 多智能体协作架构**:该架构将提示词工程与多智能体协作技术相融合，构建了一个专门针对非结构化文本处理的分布式认知系统.通过基于信息共享池的多 Agent 协作机制，结合Agent-GoTFlow 的运行结构，有效解决了非结构化合同文本的语义理解与知识表示挑战，同时保证了审查过程的可解释性和透明度.
+🔍 **Proposed PEAT-LLM4LCR Multi-Agent Collaborative Architecture**: This architecture integrates prompt engineering with multi-agent collaboration technology, constructing a distributed cognitive system specifically designed for unstructured text processing. Through an information-sharing pool-based multi-agent collaboration mechanism, combined with the Agent-GoTFlow operational structure, it effectively addresses the challenges of semantic understanding and knowledge representation in unstructured contract texts, while ensuring the interpretability and transparency of the review process.
 
-🤖 **构建了基于思维链的提示词模板的推理方法**:针对法律推理与风险识别的智能化难题，本文设计了一套基于思维链(Chain of Thought)的多维度推理方法.通过形式化法律推理过程，将抽象的法律知识转化为计算机可处理的推理路径，实现了从文本理解到风险识别的端到端自动化.
+🤖 **Developed Chain-of-Thought-Based Prompt Template Reasoning Method**: Addressing the challenges of intelligent legal reasoning and risk identification, this paper designs a multi-dimensional reasoning method based on Chain of Thought (CoT). By formalizing the legal reasoning process and transforming abstract legal knowledge into computer-processable reasoning paths, it achieves end-to-end automation from text understanding to risk identification.
 
-🧠 **创新了 LR-STRB 自监督学习方法**:为解决专业领域模型训练数据稀缺的普遍问题，本文提出了一种通用的自监督学习方法——LR-STRB(Logic Rules Self-Taught Reasoner Bootstrap).该方法通过逻辑规则引导和迭代自我提升的机制，使模型能够从少量标注数据中学习复杂的推理能力，显著降低了专业领域模型训练的数据依赖.
+🧠 **Innovated LR-STRB Self-Supervised Learning Method**: To address the common problem of scarce training data in professional domains, this paper proposes a general self-supervised learning method—LR-STRB (Logic Rules Self-Taught Reasoner Bootstrap). Through logic rule guidance and iterative self-improvement mechanisms, this method enables models to learn complex reasoning capabilities from limited annotated data, significantly reducing the data dependency for professional domain model training.
 
-📋 **开发了实用的合同审查工具系统**:基于上述理论和方法，本文开发了一套完整的合同审查工具系统，该系统实现了合同风险自动识别、修改建议生成和审查报告输出等核心功能.系统采用模块化设计，支持多种合同类型和审查场景，具有良好的扩展性和实用性.实验结果表明，该系统显著提升了合同审查效率和准确性，为企业提供了智能化、高效的合同管理解决方案.
+📋 **Developed Practical Contract Review Tool System**: Based on the above theories and methods, this paper develops a complete contract review tool system that implements core functions including automatic contract risk identification, modification suggestion generation, and review report output. The system adopts a modular design, supports multiple contract types and review scenarios, and demonstrates excellent scalability and practicality. Experimental results show that the system significantly improves contract review efficiency and accuracy, providing enterprises with an intelligent and efficient contract management solution.
 
-## 🚀 性能提升
+## 🚀 Performance Improvements
 
-与现有方法相比，PEAT-LLM4LCR实现了显著的性能提升：
+Compared to existing methods, PEAT-LLM4LCR achieves significant performance improvements:
 
-- **审查效率**：提升34%，大幅减少人工审查时间
-- **建议准确率**：提升50%，为合同修改提供更可靠依据
-- **识别准确率**：达92%，精确识别合同中的潜在风险
-- **精确率**：达93%，确保审查结果的专业性和可靠性
+- **Review Efficiency**: 34% improvement, substantially reducing manual review time
+- **Suggestion Accuracy**: 50% improvement, providing more reliable basis for contract modifications
+- **Identification Accuracy**: 92%, precisely identifying potential risks in contracts
+- **Precision**: 93%, ensuring the professionalism and reliability of review results
 
-## 🏗️ 方法架构
-下图是本文的方法：
+## 🏗️ Method Architecture
+The figure below shows the methodology of this paper:
 ![2_00](https://github.com/user-attachments/assets/2a9fa1a9-e209-4065-a01e-ec506926e1e7)
+
+
 
 
 
