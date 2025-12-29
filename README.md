@@ -1,5 +1,5 @@
 # PEAT-LLM4LCR: Intelligent Chinese Legal Contract Review Tool
-**Video Demo Link:** [https://www.bilibili.com/video/BV1gbsdeZEub/](https://www.youtube.com/watch?v=eyIikQDkv0E)
+**Video Demo Link:** https://www.youtube.com/watch?v=eyIikQDkv0E
 
 ## 📝 Overview
 
