@@ -5,6 +5,15 @@
 
 PEAT-LLM4LCR (Prompt Engineering and Agent Technology with Large Language Models for Legal Contract Review) is an innovative intelligent Chinese legal contract review method that integrates prompt engineering with agent technology to achieve efficient and accurate contract risk identification and modification suggestion generation. This method transforms the legal contract review process into a chain of thought that guides large language models through prompt engineering, and implements multi-task collaboration through Agent technology.
 
+[22_1.pdf](https://github.com/user-attachments/files/24499851/22_1.pdf)
+
+
+[22_3.pdf](https://github.com/user-attachments/files/24499853/22_3.pdf)
+
+
+[22_2.pdf](https://github.com/user-attachments/files/24499866/22_2.pdf)
+
+
 ## 🌟 Key Contributions
 
 🔍 **Proposed PEAT-LLM4LCR Multi-Agent Collaborative Architecture**: This architecture integrates prompt engineering with multi-agent collaboration technology, constructing a distributed cognitive system specifically designed for unstructured text processing. Through an information-sharing pool-based multi-agent collaboration mechanism, combined with the Agent-GoTFlow operational structure, it effectively addresses the challenges of semantic understanding and knowledge representation in unstructured contract texts, while ensuring the interpretability and transparency of the review process.
@@ -26,9 +35,11 @@ Compared to existing methods, PEAT-LLM4LCR achieves significant performance impr
 
 ## 🏗️ Method Architecture
 The figure below shows the methodology of this paper:
-![2_00](https://github.com/user-attachments/assets/2a9fa1a9-e209-4065-a01e-ec506926e1e7)
+[1.pdf](https://github.com/user-attachments/files/24499895/1.pdf)
 
 
+
+[2.pdf](https://github.com/user-attachments/files/24499909/2.pdf)
 
 <img width="1637" height="629" alt="image" src="https://github.com/user-attachments/assets/0f4622b4-1a49-43d0-934f-f861e290e466" />
 
